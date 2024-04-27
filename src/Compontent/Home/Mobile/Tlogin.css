@@ -1,0 +1,12 @@
+@media only screen and (max-width: 767px) {
+  .login-form .content {
+    margin: -80px 0px !important;
+    padding: 0px !important;
+  }
+  .mobile-login{
+    margin: 0px 0px !important;
+  }
+  .login-form input{
+    padding: 6px 20px !important;
+  }
+}

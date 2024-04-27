@@ -1,0 +1,57 @@
+.menu-box-bottom.menu-box-detached {
+  bottom: 20px;
+  left: 10px;
+  right: 10px;
+}
+.rounded-m {
+  border-radius: 15px !important;
+}
+.menu-box-bottom {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  transform: translate3d(0, 110%, 0);
+}
+.menus {
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  z-index: 101;
+  overflow: scroll;
+  transition: all 350ms ease;
+  -webkit-overflow-scrolling: touch;
+}
+
+.menu-active.menu {
+  opacity: 1 !important;
+  transition: all 350ms ease;
+  pointer-events: all !important;
+}
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
+.gradient-subject {
+  background: rgb(114, 188, 242);
+  background: linear-gradient(
+    309deg,
+    rgba(114, 188, 242, 1) 0%,
+    rgba(91, 34, 207, 1) 43%,
+    rgba(142, 83, 231, 1) 84%
+  );
+}
+.gradient-subjects {
+  background: rgb(242, 114, 177);
+  background: linear-gradient(
+    309deg,
+    rgba(242, 114, 177, 1) 0%,
+    rgba(207, 34, 116, 1) 43%,
+    rgba(190, 83, 231, 1) 84%
+  );
+}
+.color-whites {
+  color: #fff;
+}
+.bg-17 {
+  background-image: url("../../../../public/images/stu_mo.webp");
+}
